@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "SFMCSdk",
+    name: "SFMCSDK",
     products: [
-        .library(name: "SFMCSdk", targets: ["SFMCSdk"])
+        .library(name: "SFMCSDK", targets: ["SFMCSDK"])
     ],
     targets: [
         .binaryTarget(
-            name: "SFMCSdk",
-            path: "Frameworks/SFMCSdk.xcframework"
+            name: "SFMCSDK",
+            path: "Frameworks/SFMCSDK.xcframework"
         )
     ]
 )
