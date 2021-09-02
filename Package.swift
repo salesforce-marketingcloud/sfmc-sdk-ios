@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SFMCSDK",
     products: [
-        .library(name: "SFMCSDK", type: .dynamic, targets: ["SFMCSDK"])
+        .library(name: "SFMCSDK", targets: ["SFMCSDK"])
     ],
     targets: [
         .binaryTarget(
