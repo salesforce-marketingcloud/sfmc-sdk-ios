@@ -13,6 +13,8 @@ import os
 }
 @objc public protocol PushInterface {
   @objc func getIdentity() -> SFMCSDK.ModuleIdentity?
+  @objc func tearDown()
+  @objc func contactKey() -> Swift.String?
   @objc func addTag(_ tag: Swift.String) -> Swift.Bool
   @objc func addTags(_ tags: [Any]) -> Swift.Set<Swift.AnyHashable>?
   @objc func removeTag(_ tag: Swift.String) -> Swift.Bool
@@ -291,6 +293,8 @@ extension Publisher {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(SFMCSdkPUSH) final public class PUSH : ObjectiveC.NSObject, SFMCSDK.PushInterface {
   @objc final public func getStatus() -> SFMCSDK.ModuleStatus
   @objc final public func getIdentity() -> SFMCSDK.ModuleIdentity?
+  @objc final public func tearDown()
+  @objc final public func contactKey() -> Swift.String?
   @objc final public func addTag(_ tag: Swift.String) -> Swift.Bool
   @objc final public func addTags(_ tags: [Any]) -> Swift.Set<Swift.AnyHashable>?
   @objc final public func removeTag(_ tag: Swift.String) -> Swift.Bool
@@ -459,6 +463,7 @@ extension Publisher {
   @objc public static func setLogger(logLevel: SFMCSDK.LogLevel, logOutputter: SFMCSDK.LogOutputter = LogOutputter())
   public static func setLogger(logLevel: SFMCSDK.LogLevel, logOutputter: SFMCSDK.LogOutputter = LogOutputter(), filters: [SFMCSDK.LoggerCategory] = [LoggerCategory]())
   @objc public static func clearLoggerFilters()
+  @objc public static func tearDownModule(name: SFMCSDK.ModuleName)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(SFMCSdkConfigBuilder) public class ConfigBuilder : ObjectiveC.NSObject {

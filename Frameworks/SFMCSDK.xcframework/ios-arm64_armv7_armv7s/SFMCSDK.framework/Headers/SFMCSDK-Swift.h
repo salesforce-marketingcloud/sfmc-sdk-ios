@@ -698,6 +698,8 @@ typedef SWIFT_ENUM(NSInteger, OperationResult, open) {
 SWIFT_PROTOCOL("_TtP7SFMCSDK13PushInterface_")
 @protocol PushInterface
 - (id <SFMCSdkModuleIdentity> _Nullable)getIdentity SWIFT_WARN_UNUSED_RESULT;
+- (void)tearDown;
+- (NSString * _Nullable)contactKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
 - (NSSet * _Nullable)addTags:(NSArray * _Nonnull)tags SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)removeTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
@@ -763,6 +765,8 @@ SWIFT_CLASS_NAMED("PUSH")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (enum ModuleStatus)getStatus SWIFT_WARN_UNUSED_RESULT;
 - (id <SFMCSdkModuleIdentity> _Nullable)getIdentity SWIFT_WARN_UNUSED_RESULT;
+- (void)tearDown;
+- (NSString * _Nullable)contactKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
 - (NSSet * _Nullable)addTags:(NSArray * _Nonnull)tags SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)removeTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
@@ -854,6 +858,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SFMCSdkIDENTITY * _Non
 + (NSString * _Nonnull)state SWIFT_WARN_UNUSED_RESULT;
 + (void)setLoggerWithLogLevel:(enum SFMCSdkLogLevel)logLevel logOutputter:(SFMCSdkLogOutputter * _Nonnull)logOutputter;
 + (void)clearLoggerFilters;
++ (void)tearDownModuleWithName:(enum SFMCSdkModuleName)name;
 @end
 
 @class SFMCSdkStorageManager;
@@ -1832,6 +1837,8 @@ typedef SWIFT_ENUM(NSInteger, OperationResult, open) {
 SWIFT_PROTOCOL("_TtP7SFMCSDK13PushInterface_")
 @protocol PushInterface
 - (id <SFMCSdkModuleIdentity> _Nullable)getIdentity SWIFT_WARN_UNUSED_RESULT;
+- (void)tearDown;
+- (NSString * _Nullable)contactKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
 - (NSSet * _Nullable)addTags:(NSArray * _Nonnull)tags SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)removeTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
@@ -1897,6 +1904,8 @@ SWIFT_CLASS_NAMED("PUSH")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (enum ModuleStatus)getStatus SWIFT_WARN_UNUSED_RESULT;
 - (id <SFMCSdkModuleIdentity> _Nullable)getIdentity SWIFT_WARN_UNUSED_RESULT;
+- (void)tearDown;
+- (NSString * _Nullable)contactKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
 - (NSSet * _Nullable)addTags:(NSArray * _Nonnull)tags SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)removeTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
@@ -1988,6 +1997,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SFMCSdkIDENTITY * _Non
 + (NSString * _Nonnull)state SWIFT_WARN_UNUSED_RESULT;
 + (void)setLoggerWithLogLevel:(enum SFMCSdkLogLevel)logLevel logOutputter:(SFMCSdkLogOutputter * _Nonnull)logOutputter;
 + (void)clearLoggerFilters;
++ (void)tearDownModuleWithName:(enum SFMCSdkModuleName)name;
 @end
 
 @class SFMCSdkStorageManager;
@@ -2966,6 +2976,8 @@ typedef SWIFT_ENUM(NSInteger, OperationResult, open) {
 SWIFT_PROTOCOL("_TtP7SFMCSDK13PushInterface_")
 @protocol PushInterface
 - (id <SFMCSdkModuleIdentity> _Nullable)getIdentity SWIFT_WARN_UNUSED_RESULT;
+- (void)tearDown;
+- (NSString * _Nullable)contactKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
 - (NSSet * _Nullable)addTags:(NSArray * _Nonnull)tags SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)removeTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
@@ -3031,6 +3043,8 @@ SWIFT_CLASS_NAMED("PUSH")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (enum ModuleStatus)getStatus SWIFT_WARN_UNUSED_RESULT;
 - (id <SFMCSdkModuleIdentity> _Nullable)getIdentity SWIFT_WARN_UNUSED_RESULT;
+- (void)tearDown;
+- (NSString * _Nullable)contactKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)addTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
 - (NSSet * _Nullable)addTags:(NSArray * _Nonnull)tags SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)removeTag:(NSString * _Nonnull)tag SWIFT_WARN_UNUSED_RESULT;
@@ -3122,6 +3136,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SFMCSdkIDENTITY * _Non
 + (NSString * _Nonnull)state SWIFT_WARN_UNUSED_RESULT;
 + (void)setLoggerWithLogLevel:(enum SFMCSdkLogLevel)logLevel logOutputter:(SFMCSdkLogOutputter * _Nonnull)logOutputter;
 + (void)clearLoggerFilters;
++ (void)tearDownModuleWithName:(enum SFMCSdkModuleName)name;
 @end
 
 @class SFMCSdkStorageManager;
