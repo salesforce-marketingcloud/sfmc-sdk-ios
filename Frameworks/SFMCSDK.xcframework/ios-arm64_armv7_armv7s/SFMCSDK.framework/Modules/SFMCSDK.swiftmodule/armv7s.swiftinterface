@@ -568,7 +568,7 @@ extension SFMCSDK.Publisher {
   @objc public static func getManualDataPolicyCallBack() -> SFMCSDK.ManualMergePolicyCallback?
   public static func setLogger(logLevel: SFMCSDK.LogLevel, logOutputter: SFMCSDK.LogOutputter = LogOutputter(), filters: [SFMCSDK.LoggerCategory] = [LoggerCategory]())
   @objc public static func clearLoggerFilters()
-  @objc public static func setKeychainAccessibleAttribute(accessibleAtrribute: CoreFoundation.CFTypeRef?)
+  @objc public static func setKeychainAccessibleAttribute(accessibleAttribute: CoreFoundation.CFTypeRef?)
   @objc public static func keychainAccessibleAttribute() -> CoreFoundation.CFTypeRef?
   @objc public static func tearDownModule(name: SFMCSDK.ModuleName)
   @objc deinit

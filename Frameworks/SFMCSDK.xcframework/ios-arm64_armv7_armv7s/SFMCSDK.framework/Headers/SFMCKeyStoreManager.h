@@ -23,7 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SFMCEncryptionKey.h"
+#import <SFMCSDK/SFMCEncryptionKey.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

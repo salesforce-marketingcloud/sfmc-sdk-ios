@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SFMCKeyStoreManager.h"
 #import <SFMCSDK/SFMCKeyStoreManager.h>
 #import <SFMCSDK/SFMCKeychainItemWrapper.h>
 #import <SFMCSDK/UIViewController+SFMCSdkSwizzling.h>

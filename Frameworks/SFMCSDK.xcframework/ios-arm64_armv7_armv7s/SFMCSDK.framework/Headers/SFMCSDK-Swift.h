@@ -1076,7 +1076,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull sdkV
 /// kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
 /// kSecAttrAccessibleAlwaysThisDeviceOnly
 ///
-+ (void)setKeychainAccessibleAttributeWithAccessibleAtrribute:(CFTypeRef _Nullable)accessibleAtrribute;
++ (void)setKeychainAccessibleAttributeWithAccessibleAttribute:(CFTypeRef _Nullable)accessibleAttribute;
 /// Returns accessible attribute set by the SDK or overridden value by the consuming application
 ///
 /// returns:
@@ -2487,7 +2487,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull sdkV
 /// kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
 /// kSecAttrAccessibleAlwaysThisDeviceOnly
 ///
-+ (void)setKeychainAccessibleAttributeWithAccessibleAtrribute:(CFTypeRef _Nullable)accessibleAtrribute;
++ (void)setKeychainAccessibleAttributeWithAccessibleAttribute:(CFTypeRef _Nullable)accessibleAttribute;
 /// Returns accessible attribute set by the SDK or overridden value by the consuming application
 ///
 /// returns:
@@ -3898,7 +3898,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull sdkV
 /// kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
 /// kSecAttrAccessibleAlwaysThisDeviceOnly
 ///
-+ (void)setKeychainAccessibleAttributeWithAccessibleAtrribute:(CFTypeRef _Nullable)accessibleAtrribute;
++ (void)setKeychainAccessibleAttributeWithAccessibleAttribute:(CFTypeRef _Nullable)accessibleAttribute;
 /// Returns accessible attribute set by the SDK or overridden value by the consuming application
 ///
 /// returns:
