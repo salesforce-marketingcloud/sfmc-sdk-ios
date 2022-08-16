@@ -1,2 +1,2 @@
-# mobile-sfmc-sdk-ios
-Staging repo for iOS unified sdk
+# Salesforce Unified SDK for iOS
+This is the git repository for the Salesforce Marketing Cloud Unified SDK for iOS.
