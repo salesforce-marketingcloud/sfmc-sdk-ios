@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>Headers/SFMCEncryptionKey.h</key>
 		<data>
 		4l1MzESCcEseqnholMIeR9b1bVs=
@@ -48,10 +52,6 @@
 		<data>
 		fo42zPJrUPEi9hUkg1XkGdZIqcs=
 		</data>
-		<key>Modules/SFMCSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		uw7hpEQBEA1hTbKFq8YJ17hmu74=
-		</data>
 		<key>Modules/SFMCSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		wRv4jiKyfr2lJ9W900cUUqsU8KY=
@@ -67,10 +67,6 @@
 		<key>Modules/SFMCSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		2f7sPTm7ryjPZ/BID36tS5fZfQg=
-		</data>
-		<key>Modules/SFMCSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		KPjqnQXJ/gEgIwzV0Es+VBAEH5o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -165,13 +161,6 @@
 			xW9ZLKDlrfuNTpcQUctO/uol86vRl0nZGpyhWMZML4s=
 			</data>
 		</dict>
-		<key>Modules/SFMCSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/d5xqOZWrmreLN6lIXUQlYiBoC5VbXz/RdPDoN37Yo8=
-			</data>
-		</dict>
 		<key>Modules/SFMCSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -198,13 +187,6 @@
 			<key>hash2</key>
 			<data>
 			6OxASEcQDYF42MYh/S7jqNLC5hzxHF7vmazOsCC3Ceo=
-			</data>
-		</dict>
-		<key>Modules/SFMCSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5dWmtFgTF7C1iwSaeBF0Y1i/YspZ/SNOPNCQJBLUHDY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

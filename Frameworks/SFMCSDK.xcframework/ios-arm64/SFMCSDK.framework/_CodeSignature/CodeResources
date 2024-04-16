@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>Headers/SFMCEncryptionKey.h</key>
 		<data>
 		4l1MzESCcEseqnholMIeR9b1bVs=
@@ -47,10 +51,6 @@
 		<key>Modules/SFMCSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
 		u7d84jROkGMUFaQg/ES90P4y0tA=
-		</data>
-		<key>Modules/SFMCSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		N3zGkw8NVUuaB2VBvDhIMHSz/Go=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,13 +143,6 @@
 			<key>hash2</key>
 			<data>
 			SrzqC53j8M/wWvwsB4NxB6bgCGO+DHCxpFaNmyySJ9s=
-			</data>
-		</dict>
-		<key>Modules/SFMCSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b/B8qoob3dNxdoxQ54kdEvRn9Ue+l3K7BR955bd6KBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
