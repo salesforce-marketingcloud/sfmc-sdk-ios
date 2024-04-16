@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		bB7hKtMWRC/JvcP14WTKnxL5BS0=
+		</data>
+		<key>ios-arm64/.DS_Store</key>
+		<data>
+		12werUTdtuhucVxgk+4E8uE6eGc=
+		</data>
+		<key>ios-arm64/SFMCSDK.framework/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>ios-arm64/SFMCSDK.framework/Headers/SFMCEncryptionKey.h</key>
 		<data>
 		4l1MzESCcEseqnholMIeR9b1bVs=
@@ -66,11 +78,19 @@
 		</data>
 		<key>ios-arm64/SFMCSDK.framework/SFMCSDK</key>
 		<data>
-		XrR4Ja6wDSCvq+DA4oGxJ3zcSv4=
+		JyY5VpWVXBXO6vrg8aNqZwuMthA=
 		</data>
 		<key>ios-arm64/SFMCSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		FjRcW0P0J10yXAlvQxpuumdUKD8=
+		o30wAH0Eznk94SqCAcgcgFS7yIE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/.DS_Store</key>
+		<data>
+		12werUTdtuhucVxgk+4E8uE6eGc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/.DS_Store</key>
+		<data>
+		46p+erg2yoZATK/yNS8eGuJh2NQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/Headers/SFMCEncryptionKey.h</key>
 		<data>
@@ -99,6 +119,10 @@
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/Info.plist</key>
 		<data>
 		hKTaKmZ1dDzT6pUkVdCxAE8q9Cw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/Modules/.DS_Store</key>
+		<data>
+		9kTDJzxEtQpNEoFVl1OOiqFB3sM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/Modules/SFMCSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -150,11 +174,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/SFMCSDK</key>
 		<data>
-		N69mEVnA25T+CouocJdkAyx6Doo=
+		UL15InBFhDOI6JuXmQilgX+nRUs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		TPro0g1gE/8p6j8m2rrTdtaFSdw=
+		0sMg8gMuP/dsLGk73ksNs2WJ3jU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -328,22 +352,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XrR4Ja6wDSCvq+DA4oGxJ3zcSv4=
+			JyY5VpWVXBXO6vrg8aNqZwuMthA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+IwFiKOyjkELUtzIlS1zFjjNlXA10pfYwhfuvqJlEs=
+			0X/GIw6WooO/lKLZngoSxVAzqe8tzoaufMa7i93WSmY=
 			</data>
 		</dict>
 		<key>ios-arm64/SFMCSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FjRcW0P0J10yXAlvQxpuumdUKD8=
+			o30wAH0Eznk94SqCAcgcgFS7yIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZSMMN2afKeT/y/nj+rHZLHZGbiHTVzFsy09bShlS1ls=
+			BErd1VyBZ1HIpdYgcytJSjPbr0z3EoCXLZS5LQ6LY3g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/Headers/SFMCEncryptionKey.h</key>
@@ -559,22 +583,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N69mEVnA25T+CouocJdkAyx6Doo=
+			UL15InBFhDOI6JuXmQilgX+nRUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			P498uXwqXLkTVW+ZqLpvQNUUaxgVd2FkcahqmRRf3aA=
+			vKGqg2zE6rD26+JbdTf/Wb7NYKVgohgigDFxnmu2PwA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SFMCSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TPro0g1gE/8p6j8m2rrTdtaFSdw=
+			0sMg8gMuP/dsLGk73ksNs2WJ3jU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dvu9g6iwIA4aMCsLmTacP6UFgJCQOvIHB8d6++drB2A=
+			UeiOXP9XO14DwgiMkRhnw4bz8cfbvtXae1yGThB210A=
 			</data>
 		</dict>
 	</dict>
