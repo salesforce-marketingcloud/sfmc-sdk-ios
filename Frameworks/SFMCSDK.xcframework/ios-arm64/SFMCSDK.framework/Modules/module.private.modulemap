@@ -1,0 +1,13 @@
+//
+//  SFMCSDK.private.modulemap
+//  SFMCSDK
+//
+//  Copyright © 2023 Salesforce Marketing Cloud. All rights reserved.
+//
+
+module SFMCSDK_Private {
+    header "PrivateHeaders/SFMCCrypto.h"
+    header "PrivateHeaders/SFMCKeychainConstants.h"
+    
+    export *
+}
